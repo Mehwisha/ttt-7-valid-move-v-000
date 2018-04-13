@@ -14,5 +14,3 @@ elsif board[index] == "X" || board[index] == "Y"
   false
 end
 end
-
-  
