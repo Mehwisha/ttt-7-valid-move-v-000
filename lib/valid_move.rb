@@ -2,7 +2,7 @@
 def valid_move? (board, index)
   if board[index] == 8.between?(0,8) && board[index] == " "
   true
-else position_taken?
+else position_taken?(board, index)
 end
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
