@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move? (board, index)
-  if  board[index] == 9.between?(0,8) && board[index] == " "
+  if  board[index] == 8.between?(0,8)
     true
 elsif board[index] == nil || board[index] != " "
   false
